@@ -5,7 +5,7 @@ static float celcius_to_fahrenheit(int celcius);
 int main()
 {
 	int min_celcius = 0;
-	int max_celcius = 150;
+	int max_celcius = 300;
 	int step_size = 10;
 
 	int steps = ((max_celcius - min_celcius)/ step_size) + 1;
